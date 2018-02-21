@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img src="../assets/logo.png">
     <HelloWorld v-if="loading" msg="Welcome to Your Vue.js App"/>
     <ul v-else>
       <li v-for="article in articles" :key="article.guid">
