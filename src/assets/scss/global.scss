@@ -1,0 +1,18 @@
+.home{
+  margin: 70px 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li{
+  border: 0;
+  border-bottom: 1px solid #e2d6d6;
+  padding: 1em .3em;
+}
+.c::after {
+  content: "";
+  clear: both;
+  display: table;
+}
