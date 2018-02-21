@@ -40,7 +40,7 @@ export default {
         .then(resp => resp.json())
         .then(data => {
           this.articles = data.items.map(item => {
-            item.contentView = item.content
+            item.preview = item.content
               .match(PARAGRAPH)
               .shift()
               .slice(0, -1)
